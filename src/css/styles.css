@@ -53,15 +53,9 @@ input:hover {
   justify-content: center;
 }
 
-.gallery-item {
-
-}
-
-.gallery-link {}
-
 .gallery-img {
   border: 1px solid #808080;
-  width: 360px;
+  width: 300px;
   height: 152px;
   object-fit:cover;
 }
@@ -101,6 +95,17 @@ input:hover {
     line-height: 200%;
     letter-spacing: 0.04em;
     color: #2e2f42;
+}
+
+.load-button {
+  margin: 0 auto;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.load-button.hidden {
+  display: none;
 }
 
 .loader.hidden {
